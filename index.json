@@ -138,6 +138,7 @@
       "4.3"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -281,6 +282,7 @@
       "immersion",
       "immersionRC",
       "IRC",
+      "jesuslg123",
       "jitter",
       "jumper",
       "justice",
@@ -349,6 +351,7 @@
       "sa20",
       "sbus",
       "SBUS fast",
+      "serial",
       "settings",
       "shames",
       "shark bite",
@@ -400,6 +403,26 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/Lumiere7 - ELRS+GPS+DJI.txt",
+      "hash": "80ffd1f620c81b88ae0c1ec16467f3746125cf7eafaacae0554943080cc79fe0",
+      "title": "Default Lumiere 7\" configuration",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "names",
+        "camera",
+        "control",
+        "camera_control"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/BMI270.txt",
       "hash": "af69e3c94ef3dcdd2fca5906292a0dbcf4e4ac1cf74a35860d379cd9e5436c4f",
@@ -773,7 +796,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/Lumiere7 - Jumer T-Lite.txt",
-      "hash": "399314f76bc391d3945ff1de1a9cecdd045e8872cbd8ba8dddd2f5de7892c557",
+      "hash": "df17a38f1d84242d634b7d9211fb3f69ec894a59d3beeddc1c5cc3b3e7e6d574",
       "title": "Lumiere 7\" Jumper T-Lite Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
@@ -789,7 +812,8 @@
         "switch",
         "elrs",
         "jumper",
-        "lite"
+        "lite",
+        "jesuslg123"
       ],
       "author": "Betaflight",
       "priority": 0
@@ -812,6 +836,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/osd/Lumiere7 - DJI.txt",
+      "hash": "9c03cb8776c9e127c3d40754005d65e3272aff8bf53d0560f775d179dee59e37",
+      "title": "Lumiere 7\" DJI 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Lumiere",
+        "defaults",
+        "reset",
+        "OSD",
+        "jesuslg123"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/blackbox_disable.txt",
       "hash": "71fc4b4cc44366fbbd91ad1aaf882cddd103fae91c4230988a5ebbb67b6bac5d",
       "title": "4.3 Blackbox disable settings",
@@ -828,6 +871,25 @@
         "sugarK"
       ],
       "author": "sugarK",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/Lumiere7 - ELRS+GPS+DJI.txt",
+      "hash": "f1ebbc56e857caa7c4f6e0c696511d7d5c84847b1d7e997f25f3b1f792a9c3bd",
+      "title": "Default Serial Lumiere 7\" serial configuration",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "serial",
+        "Lumiere",
+        "jesuslg123"
+      ],
+      "author": "Betaflight",
       "priority": 0
     },
     {

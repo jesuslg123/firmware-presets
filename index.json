@@ -202,9 +202,11 @@
       "6\"",
       "65mm",
       "666Hz",
+      "6in",
       "6S",
       "7 Inch",
       "7\"",
+      "7in",
       "9ms",
       "acro",
       "Acrobaix",
@@ -245,7 +247,7 @@
       "DShot telemetry",
       "dual",
       "E7082VM",
-      "ELRS",
+      "elrs",
       "emax",
       "EVO",
       "expert",
@@ -280,6 +282,7 @@
       "immersionRC",
       "IRC",
       "jitter",
+      "jumper",
       "justice",
       "karate",
       "KarateBrot",
@@ -288,9 +291,11 @@
       "leds",
       "Limon",
       "link",
+      "lite",
       "log",
       "logging",
       "Long Range",
+      "Lumiere",
       "mamba",
       "meteor",
       "MinChan",
@@ -767,6 +772,29 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/modes/Lumiere7 - Jumer T-Lite.txt",
+      "hash": "399314f76bc391d3945ff1de1a9cecdd045e8872cbd8ba8dddd2f5de7892c557",
+      "title": "Lumiere 7\" Jumper T-Lite Modes and Adjustment settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "Lumiere",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch",
+        "elrs",
+        "jumper",
+        "lite"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "title": "Default 4.3 OSD settings",
@@ -1226,7 +1254,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/DJI_Normal.txt",
-      "hash": "502da7e4901758251bc6e239d5a48a5a1e2e8b8ff108092040948a2a0d7a5ab4",
+      "hash": "f6adb5f164fe234ee3e0f96747d629d548ac222fb7d7f658202a2bb60d786bdf",
       "title": "DJI Normal",
       "firmware_version": [
         "4.3"
@@ -1245,7 +1273,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/DJI_SBUS_Fast.txt",
-      "hash": "8903a50237bdb9b735effce19ae351f4dc1709315f572a2620c198e600035302",
+      "hash": "47e4acedecf6c68c74f9fe664a8614f4a2d3517e0665030918a549ca34d623ad",
       "title": "DJI SBUS FAST",
       "firmware_version": [
         "4.3"
@@ -1765,8 +1793,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/ghost/long_range.txt",
-      "hash": "f3e7692c910c73f728776b190406d6395afbdfcf4e867aaed8f99a412559e9c9",
-      "title": "IRC Ghost; Mode: Long Range",
+      "hash": "37bf52892ae6489822ac980577a60b81bf2762b87f0b5d18fce38855637f84d9",
+      "title": "IRC Ghost (Long Range)",
       "firmware_version": [
         "4.3"
       ],
@@ -1790,8 +1818,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/ghost/normal.txt",
-      "hash": "f00c3298575744c10549dcaa46e11f1b9f47ad9d1ecea75fb1018254c1deeae4",
-      "title": "IRC Ghost; Mode: Normal",
+      "hash": "2c208ecec8ec21fe23a20c150d91b9debe94a3bbe85e8513730288bad2fdc221",
+      "title": "IRC Ghost (Mode: Normal)",
       "firmware_version": [
         "4.3"
       ],
@@ -1816,8 +1844,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/ghost/pure_race.txt",
-      "hash": "774246459eb0f90d2a711f33629434a158e6901d4d9f151096e60a215176f97e",
-      "title": "IRC Ghost; Mode: Pure Race",
+      "hash": "02fa58697a85f4015a6727202565265dcd1d96119299ff7122a6a0827af42e79",
+      "title": "IRC Ghost (Pure Race)",
       "firmware_version": [
         "4.3"
       ],
@@ -1842,8 +1870,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/ghost/race.txt",
-      "hash": "3ce22e7cbe17569b09ab5ffb2ed027d279400aeb40d76dcc8341a327b18662eb",
-      "title": "IRC Ghost; Mode: Race",
+      "hash": "604505e2bf18d7064bcd5579ef9f1c54817639605f0e413f20c863a2af271a6e",
+      "title": "IRC Ghost (Mode: Race)",
       "firmware_version": [
         "4.3"
       ],
@@ -1868,8 +1896,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/ghost/race250.txt",
-      "hash": "c766372d2ac35962104ad3b62438b3b0d154483a793ea1c5499919aea3fbb59c",
-      "title": "IRC Ghost; Mode: Race250",
+      "hash": "594e3c6aac3387c98e601ad733ed1661a1cee9ea6f3118e7d9e42b7c7602b476",
+      "title": "IRC Ghost (Race250)",
       "firmware_version": [
         "4.3"
       ],
@@ -1894,8 +1922,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/ghost/race500.txt",
-      "hash": "08e2901805cbd785b585fd1ea2b0c0a27cb81322a0df498732ab681a2ef2a01f",
-      "title": "IRC Ghost; Mode: Race500",
+      "hash": "a609358caf58090ece18d86916b19dc418a5d6321ac557a61f6d90827a0c8c2c",
+      "title": "IRC Ghost (Race500)",
       "firmware_version": [
         "4.3"
       ],
@@ -1920,8 +1948,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/ghost/solid250.txt",
-      "hash": "9645822102017ac300fd5a72114a2bbd0c91550656dc5aa0677b52f8b57b6f1a",
-      "title": "IRC Ghost; Mode: Solid250",
+      "hash": "10e98599896fb36691557a0a09134139b9640055a8e7e58bc48d10e73dbffd95",
+      "title": "IRC Ghost (Solid250)",
       "firmware_version": [
         "4.3"
       ],
@@ -2002,7 +2030,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/tbs/crossfire_150hz.txt",
-      "hash": "b85196050a49fe7ef7a6baa826b6043867fdd3fe81c61830629bb98dd7f8c77a",
+      "hash": "cc79b53a8abaf6413302d29c93daafdc51643e2268bd29b0ed369f93202c7af4",
       "title": "TBS Crossfire 150Hz",
       "firmware_version": [
         "4.3"
@@ -2025,7 +2053,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/tbs/crossfire_50hz.txt",
-      "hash": "831ebad99ca3a77241177dacd9101dde7bcab7b10610d3a6a26149823eedb312",
+      "hash": "e4bfdca099a049bf525bb8fa236a4bd97168a59516db639f4936f47402ccbc50",
       "title": "TBS Crossfire 50Hz",
       "firmware_version": [
         "4.3"
@@ -2048,7 +2076,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/tbs/tracer_250hz.txt",
-      "hash": "aa4919189a2e306adc8921c21c95fef3ac465b736921b6b0acfe13e5a2b21b45",
+      "hash": "7ae066ca7f02c9a14de85ed184e0dac160eb47123bb6467d127a0c4211ee0695",
       "title": "TBS Tracer 250Hz",
       "firmware_version": [
         "4.3"
@@ -2430,6 +2458,47 @@
         "tinyTrainer"
       ],
       "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/UAV_tech_5in.txt",
+      "hash": "db11ec74fa5760f5b31c90197f79be79458248ea146f7a3ced7525519d4c9305",
+      "title": "UAV Tech - 5in (~630g AUW)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "4S",
+        "6S",
+        "5in",
+        "5\"",
+        "freestyle"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/UAV_tech_6-7in.txt",
+      "hash": "af9aaeaea38e9c44cd49214ae98d5d04859e9ab12588ce5dd342cfa3e1b0be37",
+      "title": "UAV Tech - 6-7in (~700g AUW)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "4S",
+        "6S",
+        "6in",
+        "7in",
+        "6\"",
+        "7\"",
+        "freestyle",
+        "long range"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
       "priority": 1000000000000
     },
     {

@@ -1,0 +1,22 @@
+#$ TITLE: Default Serial Lumiere 7" serial configuration
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, serial, Lumiere, jesuslg123
+#$ AUTHOR: Betaflight
+#$ DESCRIPTION: Default Serial Lumiere 7" configuration with DJI, GPS and ELRS for 4.3 defaults
+
+# feature
+feature GPS
+feature AIRMODE
+
+# serial
+serial 20 1 115200 57600 0 115200
+serial 0 1 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+serial 3 2 115200 57600 0 115200
+serial 5 1024 115200 57600 0 115200
+
+#master
+set rssi_channel = 15
+set serialrx_provider = CRSF

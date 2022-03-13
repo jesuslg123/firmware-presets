@@ -1,0 +1,87 @@
+#$ TITLE: Default Lumiere 7" configuration
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, names, camera, control, camera_control
+#$ AUTHOR: Betaflight
+#$ DESCRIPTION: Default Lumiere 7" configuration with DJI, GPS and ELRS for 4.3 defaults
+
+# reset configuration to default settings
+defaults nosave
+
+# resources
+resource MOTOR 1 C08
+resource MOTOR 2 C09
+resource MOTOR 3 B01
+resource MOTOR 4 B00
+
+# feature
+feature GPS
+feature AIRMODE
+
+# serial
+serial 20 1 115200 57600 0 115200
+serial 0 1 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+serial 3 2 115200 57600 0 115200
+serial 5 1024 115200 57600 0 115200
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 3 900 1300 0 0
+aux 2 2 3 1300 1700 0 0
+aux 3 46 1 1700 2100 0 0
+aux 4 13 1 1300 1700 0 0
+aux 5 35 2 1700 2100 0 0
+
+#master
+set rssi_channel = 15
+set serialrx_provider = CRSF
+
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+
+set failsafe_procedure = GPS-RESCUE
+
+set align_board_yaw = 180
+
+set vbat_max_cell_voltage = 420
+set vbat_min_cell_voltage = 333
+set ibata_scale = 305
+set ibata_offset = 0
+set yaw_motors_reversed = ON
+set small_angle = 180
+
+set gps_provider = UBLOX
+set gps_sbas_mode = AUTO
+set gps_auto_baud = ON
+set gps_ublox_use_galileo = ON
+
+set pid_process_denom = 2
+
+set osd_vbat_pos = 2059
+set osd_rssi_pos = 2069
+set osd_flymode_pos = 2517
+set osd_crosshairs_pos = 2253
+set osd_current_pos = 2051
+set osd_mah_drawn_pos = 2055
+set osd_gps_speed_pos = 2401
+set osd_gps_lon_pos = 2536
+set osd_gps_lat_pos = 2532
+set osd_gps_sats_pos = 2433
+set osd_home_dir_pos = 2510
+set osd_home_dist_pos = 2369
+set osd_flight_dist_pos = 2311
+set osd_altitude_pos = 2336
+set osd_avg_cell_voltage_pos = 2062
+set osd_disarmed_pos = 2218
+set gyro_1_align_yaw = 1800
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set thr_mid = 25
+set thr_expo = 50
